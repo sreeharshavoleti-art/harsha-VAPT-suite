@@ -1,39 +1,143 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=HARSHA%20AI%20v10.0%20%7C%20VAPT%20Suite%20%F0%9F%9B%A1%EF%B8%8F;Vulnerability%20Assessment%20%26%20Penetration%20Testing;Web%20%7C%20Network%20%7C%20Infrastructure%20%7C%20Cloud" alt="Typing SVG" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=HARSHA+AI+v10.1+Beta+%7C+VAPT+Suite+%F0%9F%9B%A1%EF%B8%8F;Attack+Chain+Engine+%7C+Kill+Chain+Mapping;Web+%7C+Network+%7C+Infrastructure+%7C+Cloud" alt="Typing SVG" />
+
+<br/>
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-Web%20UI-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 [![Nmap](https://img.shields.io/badge/Nmap-Integrated-4CAF50?style=for-the-badge&logo=linux&logoColor=white)](https://nmap.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Tools](https://img.shields.io/badge/Tools-30%2B-E74C3C?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite)
-[![Lines](https://img.shields.io/badge/Lines%20of%20Code-2487-8E44AD?style=for-the-badge)](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite)
+[![Lines](https://img.shields.io/badge/Lines%20of%20Code-3098-8E44AD?style=for-the-badge)](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite)
+[![Version](https://img.shields.io/badge/Version-10.1%20Beta-FF6B35?style=for-the-badge)](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite)
 [![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)](https://kali.org)
 
 <br/>
 
-> **A comprehensive AI-powered Vulnerability Assessment & Penetration Testing framework.**
-> Built for security professionals. Covers Web, Network, Infrastructure & Cloud security with 30+ integrated tools,
-> real-time scan progress tracking, and an intelligent AI chat assistant.
+> **A comprehensive AI-powered VAPT framework with Attack Chain Engine, Kill Chain Mapping, and 3-audience reporting.**
+> Built for security professionals. Covers Web, Network, Infrastructure & Cloud with 30+ tools and intelligent attack path analysis.
 
 <br/>
 
-[🚀 Quick Start](#-installation) · [🛠️ Tools](#️-tools--capabilities) · [🤖 AI Chat](#-ai-chat-assistant) · [📦 Install](#-installation) · [👤 Author](#-author)
+[🚀 Quick Start](#-installation) · [⛓️ Attack Chain Engine](#️-attack-chain-engine--new-in-v101) · [🛠️ Tools](#️-tools--capabilities) · [📸 Screenshots](#-screenshots) · [👤 Author](#-author)
 
 ---
 
 </div>
 
-## 📌 Overview
+## 🆕 What's New in v10.1 Beta
 
-**HARSHA AI v10.0** is a Flask-powered VAPT suite that unifies the most critical security testing workflows into a single intelligent interface. Instead of switching between dozens of terminal tools, security analysts can launch assessments, monitor real-time progress, and receive AI-guided remediation advice — all in one place.
+| Feature | v10.0 | v10.1 Beta |
+|---------|-------|------------|
+| Lines of Code | 2,487 | **3,098** (+611) |
+| File Size | 184 KB | **228 KB** |
+| Attack Chain Engine | ❌ | ✅ **10 kill chains** |
+| Kill Chain Mapping | ❌ | ✅ **MITRE ATT&CK style** |
+| Business Impact in ₹ | ❌ | ✅ **INR cost estimates** |
+| 3-Audience Reports | ❌ | ✅ **Executive + Technical + Compliance** |
+| DPDP Act 2023 Compliance | ❌ | ✅ **India's new data law** |
+| ISO27001 / PCI-DSS / SOC2 | ❌ | ✅ **All 4 frameworks** |
+| Confidence Scoring | ❌ | ✅ **% match per chain** |
 
-**Key differentiators:**
-- 🤖 **Built-in AI Chat** — answers CVE, OWASP, attack technique questions instantly
-- 📡 **Live Threat Intel** — Wikipedia + DuckDuckGo search integrated
-- 🔊 **Voice Feedback** — gTTS-powered audio output (India English)
-- 📊 **Risk Visualization** — threat graphs, severity ratings, port intelligence DB
-- ⚡ **Real-time Progress** — scan status with percentage and elapsed time per tool
-- 📄 **Auto Report** — downloadable VAPT report per assessment session
+---
+
+## ⛓️ Attack Chain Engine — New in v10.1
+
+> **The most powerful feature of HARSHA AI** — automatically connects individual vulnerabilities into full attack paths, showing exactly how a real attacker would chain weaknesses together for maximum impact.
+
+### How It Works
+
+```
+Scan Results → Port Analysis → Threat Correlation → Chain Matching → Kill Chain Report
+     ↓               ↓               ↓                   ↓                ↓
+ Open ports      CVE findings    Keyword match       50%+ confidence    Business impact
+```
+
+### 10 Attack Chains Detected
+
+| # | Attack Chain | Kill Chain Phases | Severity | Cost Exposure |
+|---|-------------|-------------------|----------|---------------|
+| 1 | **FTP → Web Shell Upload** | Initial Access → Execution → Persistence | 🔴 CRITICAL | ₹8–25 Lakhs |
+| 2 | **SQL Injection → Data Exfiltration** | Initial Access → Collection → Exfiltration | 🔴 CRITICAL | ₹15–50 Lakhs |
+| 3 | **SSH Brute Force → Privilege Escalation** | Initial Access → PrivEsc → Impact | 🔴 CRITICAL | ₹10–30 Lakhs |
+| 4 | **SSL/TLS Weakness → MITM Attack** | Recon → Credential Access → Collection | 🟠 HIGH | ₹5–15 Lakhs |
+| 5 | **Exposed Database → Mass Data Theft** | Recon → Collection → Exfiltration | 🔴 CRITICAL | ₹20–75 Lakhs |
+| 6 | **XSS → Session Hijacking** | Initial Access → Credential Access → Impact | 🟠 HIGH | ₹3–10 Lakhs |
+| 7 | **SMB Exploit → Lateral Movement** | Initial Access → Lateral → Impact | 🔴 CRITICAL | ₹25–100 Lakhs |
+| 8 | **CORS Misconfiguration → Account Takeover** | Initial Access → Credential Access | 🟠 HIGH | ₹2–8 Lakhs |
+| 9 | **RDP Exposure → Ransomware** | Initial Access → Execution → Impact | 🔴 CRITICAL | ₹15–50 Lakhs |
+| 10 | **Docker API → Container Escape** | Initial Access → Execution → PrivEsc | 🔴 CRITICAL | ₹10–40 Lakhs |
+
+### Chain Confidence Scoring
+
+Each chain gets a confidence percentage based on evidence found:
+
+```
+Chain: SQL Injection → Data Exfiltration
+Confidence: 75%
+
+Step 1 ✅ Web Application Exposed     [Port 80/443 open — CONFIRMED]
+Step 2 ✅ SQL Injection Found          [SQLMap findings — CONFIRMED]
+Step 3 ⚠️  Database Service Reachable  [Port 3306 not found — PARTIAL]
+
+Impact: Full Database Extraction — attacker dumps all tables including
+        user credentials, payment data, and PII.
+
+Business Impact: Mass data breach. DPDP Act violation, lawsuits.
+Cost Exposure:   ₹15–50 Lakhs
+```
+
+---
+
+## 📊 3-Audience Report System
+
+HARSHA AI v10.1 generates **three different reports** from a single scan — tailored for each audience:
+
+### 👔 Executive Report
+- Plain-language risk summary (no technical jargon)
+- Business impact in Indian Rupees (₹)
+- Top 5 risks ranked by financial exposure
+- Go/No-go remediation recommendation
+
+### 🔧 Technical Report
+- Full port analysis with severity ratings
+- CVE findings with CVSS scores
+- Attack chain step-by-step breakdown
+- Specific fix commands and configurations
+
+### 📋 Compliance Report
+
+| Framework | Coverage |
+|-----------|----------|
+| **ISO 27001** | A.9, A.10, A.13, A.14 controls mapped |
+| **PCI-DSS** | Requirements 1, 2, 4, 6, 8 |
+| **SOC 2** | CC6.1, CC6.2, CC6.3, CC6.6, CC6.7 |
+| **DPDP Act 2023** | Section 8, 9 — India's new data protection law |
+
+---
+
+## 📸 Screenshots
+
+> *Screenshots coming soon — run the tool and add yours!*
+
+### How to add screenshots to this README:
+
+**Step 1** — Run HARSHA AI and take screenshots:
+```bash
+python harsha_VAPT.py
+# Open browser → http://localhost:5000
+# Press F12 or use Snipping Tool (Windows) / Screenshot (Linux)
+```
+
+**Step 2** — Create `screenshots/` folder in your repo and upload images
+
+**Step 3** — Add to README like this:
+```markdown
+![Dashboard](screenshots/dashboard.png)
+![Attack Chain](screenshots/attack_chain.png)
+![Report](screenshots/report.png)
+```
 
 ---
 
@@ -84,35 +188,18 @@
 | **WinRM Check** | Windows Remote Management HTTP/HTTPS |
 | **SNMP Audit** | SNMPv1/v2 bruteforce + interface/process enumeration |
 
-### 🔬 Nuclei Scanner — 6 Scan Types
-
-| Type | Templates | Severity |
-|------|-----------|----------|
-| Full Scan | All templates | All severities |
-| CVE Scan | `cves/` | Critical, High |
-| Misconfiguration | `misconfiguration/ + exposed-panels/` | All |
-| Tech Detection | `technologies/` | Info |
-| Critical/High | All templates | Critical + High only |
-| Network Scan | `network/` | All |
+### 🔬 Nuclei Scanner — 6 Types
+Full · CVE · Misconfiguration · Tech Detection · Critical/High · Network
 
 ### 🌐 Recon — 8 Tools
-`WHOIS` · `DNS (A/MX/NS/TXT/CNAME/SOA/AAAA)` · `IP Geolocation` · `Ping` · `Traceroute` · `Local Network Scan` · `My IP` · `System Info`
+`WHOIS` · `DNS` · `IP Geolocation` · `Ping` · `Traceroute` · `Network Scan` · `My IP` · `System Info`
 
 ---
 
 ## 🧠 Intelligence Databases
 
 ### Port Knowledge Base — 50+ Ports
-Every open port cross-referenced for risk:
-
-```
-PORT  6379  →  Redis
-Severity  :  CRITICAL
-Risk      :  No auth by default. Full DB read/write/RCE possible.
-Fix       :  requirepass in redis.conf. Bind to 127.0.0.1 only.
-```
-
-### CVE Vulnerability Database — 25+ Signatures
+### CVE Database — 25+ Signatures
 
 | CVE | Vulnerability | Severity |
 |-----|--------------|----------|
@@ -124,25 +211,6 @@ Fix       :  requirepass in redis.conf. Bind to 127.0.0.1 only.
 | CVE-2020-1472 | ZeroLogon (Netlogon) | 🔴 CRITICAL |
 | CVE-2014-6271 | Shellshock (Bash RCE) | 🔴 CRITICAL |
 | CVE-2014-3566 | POODLE (SSLv3) | 🟠 HIGH |
-| — | FTP Anonymous Login | 🟠 HIGH |
-| — | Missing HSTS Header | 🟡 MEDIUM |
-
----
-
-## 🤖 AI Chat Assistant
-
-No internet needed — built-in cybersecurity knowledge:
-
-```
-"What is SQL injection?"      → Attack types + examples + prevention
-"Explain OWASP Top 10"        → All 10 with 2021 categories
-"How to secure SSH?"          → 8-point hardening checklist
-"What is Log4Shell?"          → CVE-2021-44228 full breakdown
-"Explain BlueKeep"            → CVE-2019-0708 RDP analysis
-"search Cloudflare WAF"       → Live Wikipedia/DuckDuckGo result
-```
-
-Topics: SQLi · XSS · SSRF · RCE · MITM · DDoS · Ransomware · Zero-day · OWASP · CIA Triad · CVSS · Encryption · TLS · Docker Security · K8s Hardening
 
 ---
 
@@ -156,15 +224,14 @@ cd harsha-VAPT-suite
 # 2. Install Python dependencies
 pip install flask gtts requests psutil
 
-# 3. Install security tools
+# 3. Install security tools (Kali Linux recommended)
 sudo apt install -y nmap nikto gobuster dirb sqlmap whatweb
 pip install wafw00f
 
-# 4. Run HARSHA AI
-python harsha_VAPT.py
+# 4. Run HARSHA AI v10.1 Beta
+python "Harsha_VAPT_beta version_10.1.py"
 
-# 5. Open browser
-# http://localhost:5000
+# 5. Open browser → http://localhost:5000
 ```
 
 ---
@@ -174,16 +241,20 @@ python harsha_VAPT.py
 ```
 harsha-VAPT-suite/
 │
-├── harsha_VAPT.py              ← Core engine (2487 lines)
-│   ├── /scan  endpoint         ← Tool execution handler
-│   ├── /chat  endpoint         ← AI chat response
-│   ├── /voice endpoint         ← gTTS audio output
-│   ├── Scan Progress Tracker   ← Real-time threading
-│   ├── Port Intelligence DB    ← 50+ ports with severity
-│   ├── CVE Vulnerability DB    ← 25+ CVE signatures
-│   ├── AI Chat Engine          ← Keyword + NLP responses
-│   ├── Search Engine           ← Wikipedia + DuckDuckGo
-│   └── Nuclei Integration      ← 6 template scan types
+├── harsha_VAPT.py                    ← Stable v10.0 (2487 lines)
+├── Harsha_VAPT_beta version_10.1.py  ← Beta v10.1 (3098 lines)
+│   ├── /scan  endpoint               ← 30+ tool handlers
+│   ├── /chat  endpoint               ← AI chat engine
+│   ├── /voice endpoint               ← gTTS audio
+│   ├── /report endpoint              ← 3-audience report
+│   ├── Attack Chain Engine           ← 10 kill chains ← NEW
+│   ├── Chain Confidence Scorer       ← % match analysis ← NEW
+│   ├── 3-Audience Report Generator   ← Exec+Tech+Compliance ← NEW
+│   ├── DPDP Act 2023 Mapper         ← India compliance ← NEW
+│   ├── Port Intelligence DB          ← 50+ ports
+│   ├── CVE Vulnerability DB          ← 25+ CVEs
+│   ├── AI Chat Engine                ← Built-in knowledge
+│   └── Wikipedia + DuckDuckGo Search ← Live intel
 │
 └── README.md
 ```
@@ -198,9 +269,11 @@ harsha-VAPT-suite/
 | Network Scanning | Nmap, enum4linux, snmpwalk |
 | Web Testing | Nikto, SQLMap, Gobuster, wafw00f, whatweb |
 | Vulnerability Scanning | Nuclei, Nmap NSE scripts |
+| Attack Chain Analysis | Custom rule engine (10 chains) |
+| Compliance Mapping | ISO27001, PCI-DSS, SOC2, DPDP Act 2023 |
 | AI + Search | Wikipedia REST API, DuckDuckGo API |
-| Voice | gTTS (Google Text-to-Speech) |
-| System Monitoring | psutil, threading, subprocess |
+| Voice | gTTS (Google Text-to-Speech, India English) |
+| Reporting | 3-audience JSON → HTML report generator |
 
 ---
 
@@ -208,9 +281,9 @@ harsha-VAPT-suite/
 
 > **This tool is developed strictly for authorized security testing and educational purposes.**
 > Scanning systems without explicit written permission is **illegal** under the
-> Computer Fraud and Abuse Act (CFAA), IT Act 2000 (India), and other applicable laws.
-> The author assumes **no liability** for unauthorized or illegal use of this software.
-> **Always obtain proper authorization before conducting any security assessment.**
+> Computer Fraud and Abuse Act (CFAA), IT Act 2000 (India), DPDP Act 2023, and other applicable laws.
+> The author assumes **no liability** for unauthorized or illegal use.
+> **Always obtain proper written authorization before any security assessment.**
 
 ---
 
@@ -242,9 +315,32 @@ harsha-VAPT-suite/
 
 ---
 
+## 📌 Changelog
+
+```
+v10.1 Beta (Mar 2026)
++ Attack Chain Engine — 10 kill chains with confidence scoring
++ 3-Audience Report Generator (Executive / Technical / Compliance)
++ DPDP Act 2023 compliance mapping (India)
++ ISO27001, PCI-DSS, SOC2 control mapping
++ Business impact in INR (₹ lakh estimates per chain)
++ +611 lines of new code (2487 → 3098)
+
+v10.0 (Feb 2026)
++ 30+ VAPT tools (Network, Web, Infra, Nuclei, Recon)
++ AI Chat Assistant with built-in security knowledge
++ Wikipedia + DuckDuckGo live search
++ Voice output (India English gTTS)
++ Real-time scan progress tracking
++ Port Intelligence DB (50+ ports)
++ CVE Vulnerability DB (25+ signatures)
+```
+
+---
+
 <div align="center">
 
-**If this project helped you, please consider giving it a ⭐ Star!**
+**If this project helped you, please give it a ⭐ Star!**
 
 *"The best hackers think like attackers but act like defenders."*
 
