@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=HARSHA+AI+v10.0+%7C+VAPT+Suite+%F0%9F%9B%A1%EF%B8%8F;Vulnerability+Assessment+%26+Penetration+Testing;Web+%7C+Network+%7C+Infrastructure+%7C+Cloud" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=HARSHA+AI+v10.0+%7C+VAPT+Suite+%F0%9F%9B%A1%EF%B8%8F; Vulnerability+Assessment+%26+Penetration+Testing;Web+%7C+Network+%7C+Infrastructure+%7C+Cloud" alt="Typing SVG" />
 
 <br/>
 
