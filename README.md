@@ -263,10 +263,9 @@ IT Security Analyst | VAPT Engineer | M.Tech Aspirant 2026<br/><br/>
 <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <br/><br/>
-📍 Hyderabad, Telangana, India<br/>
-🏢 Fluentgrid Limited — IT Security Analyst (2023–Present)<br/>
-🎓 B.Tech IT — Raghu Engineering College, AP (2023)<br/>
-🎯 Targeting: IIIT Hyderabad M.Tech CSIS 2026
+📍 India<br/>
+🏢 cyber security research <br/>
+<br/>
 </td>
 </tr>
 </table>
@@ -285,7 +284,7 @@ git clone https://github.com/sreeharshavoleti-art/harsha-VAPT-suite.git
 
 <div align="center">
 
-**Built with ❤️ by Harsha | Hyderabad, India | 2025**
+**Built with ❤️ by Harsha | India | 2025**
 
 *"The best hackers think like attackers but act like defenders."*
 
