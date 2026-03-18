@@ -53,7 +53,7 @@ Scan Results → Port Analysis → Threat Correlation → Chain Matching → Kil
      ↓               ↓               ↓                   ↓                ↓
  Open ports      CVE findings    Keyword match       50%+ confidence    Business impact
 ```
-
+![image alt](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite/blob/4cd922bc43c1a55847fa5fbd86009e0f2c7672fb/Kill%20Chain%20Analysis.png)
 ### 10 Attack Chains Detected
 
 | # | Attack Chain | Kill Chain Phases | Severity | Cost Exposure |
@@ -117,30 +117,16 @@ HARSHA AI v10.1 generates **three different reports** from a single scan — tai
 
 ---
 
+
 ## 📸 Screenshots
+Threat Graph
+![image alt](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite/blob/edb46cfca0b43cecd9510e12ccfc3a7168f89760/Threat%20Graph.png)
 
-> *Screenshots coming soon — run the tool and add yours!*
+VAPT Report
+![image alt](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite/blob/edb46cfca0b43cecd9510e12ccfc3a7168f89760/VAPT.png)
 
-### How to add screenshots to this README:
-
-**Step 1** — Run HARSHA AI and take screenshots:
-```bash
-python harsha_VAPT.py
-# Open browser → http://localhost:5000
-# Press F12 or use Snipping Tool (Windows) / Screenshot (Linux)
-```
-
-**Step 2** — Create `screenshots/` folder in your repo and upload images
-
-**Step 3** — Add to README like this:
-```markdown
-![Dashboard](screenshots/dashboard.png)
-![Attack Chain](screenshots/attack_chain.png)
-![Report](screenshots/report.png)
-```
-
----
-
+Dashboard
+![image alt](https://github.com/sreeharshavoleti-art/harsha-VAPT-suite/blob/edb46cfca0b43cecd9510e12ccfc3a7168f89760/dashboard.png)
 ## 🛠️ Tools & Capabilities
 
 ### 🔍 Network VAPT — 10 Tools
