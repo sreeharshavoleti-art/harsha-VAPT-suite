@@ -303,11 +303,10 @@ harsha-VAPT-suite/
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/sreeharshavoleti-art)
 
 <br/>
-
-📍 Hyderabad, Telangana, India<br/>
+ India<br/>
 🏢 IT Security Analyst — Fluentgrid Limited (2023–Present)<br/>
 🎓 B.Tech Information Technology — Raghu Engineering College, AP<br/>
-🎯 M.Tech CSIS Aspirant — IIIT Hyderabad 2026
+
 
 </td>
 </tr>
