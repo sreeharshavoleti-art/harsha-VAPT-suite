@@ -54,7 +54,7 @@
 | **Firewall Detection** | `nmap -sA + firewall-bypass` | ACK scan + bypass testing |
 | **Banner Grab** | `nmap --script banner` | Service version banners |
 | **ARP Scan** | `nmap -sn <subnet>` | Local network host discovery |
-| **SMB Enumeration** | `smb-enum-shares + enum4linux` | Shares, users, MS17-010 (EternalBlue) |
+| **SMB Enumeration** | `smb-enum-shares + enum4linux` | Shares, users, MS17-010 EternalBlue |
 | **DNS Zone Transfer** | `dig axfr + nmap dns-zone-transfer` | Misconfigured DNS exploitation |
 
 ### 🌐 Web VAPT — 12 Tools
@@ -107,6 +107,7 @@
 
 ### Port Knowledge Base — 50+ Ports
 Every open port cross-referenced for risk:
+
 ```
 PORT  6379  →  Redis
 Severity  :  CRITICAL
@@ -134,6 +135,7 @@ Fix       :  requirepass in redis.conf. Bind to 127.0.0.1 only.
 ## 🤖 AI Chat Assistant
 
 No internet needed — built-in cybersecurity knowledge:
+
 ```
 "What is SQL injection?"      → Attack types + examples + prevention
 "Explain OWASP Top 10"        → All 10 with 2021 categories
@@ -149,14 +151,6 @@ Topics: SQLi · XSS · SSRF · RCE · MITM · DDoS · Ransomware · Zero-day · 
 
 ## 🚀 Installation
 
-### Requirements
-```bash
-# OS: Kali Linux / Ubuntu 20.04+ (recommended)
-# Python 3.8+
-python --version
-```
-
-### Setup
 ```bash
 # 1. Clone repository
 git clone https://github.com/sreeharshavoleti-art/harsha-VAPT-suite.git
@@ -168,23 +162,18 @@ pip install flask gtts requests psutil
 # 3. Install security tools
 sudo apt install -y nmap nikto gobuster dirb sqlmap whatweb
 pip install wafw00f
-sudo apt install ssh-audit
 
-# 4. Install Nuclei (optional)
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
-
-# 5. Run HARSHA AI
+# 4. Run HARSHA AI
 python harsha_VAPT.py
-```
 
-### Access
-```
-Open browser → http://localhost:5000
+# 5. Open browser
+# http://localhost:5000
 ```
 
 ---
 
 ## 🏗️ Architecture
+
 ```
 harsha-VAPT-suite/
 │
@@ -245,9 +234,9 @@ harsha-VAPT-suite/
 
 <br/>
 
-📍 Hyderabad, Telangana, India
-🏢 IT Security Analyst — Fluentgrid Limited (2023–Present)
-🎓 B.Tech Information Technology — Raghu Engineering College, AP
+📍 Hyderabad, Telangana, India<br/>
+🏢 IT Security Analyst — Fluentgrid Limited (2023–Present)<br/>
+🎓 B.Tech Information Technology — Raghu Engineering College, AP<br/>
 🎯 M.Tech CSIS Aspirant — IIIT Hyderabad 2026
 
 </td>
@@ -259,20 +248,9 @@ harsha-VAPT-suite/
 <div align="center">
 
 **If this project helped you, please consider giving it a ⭐ Star!**
-```bash
-git clone https://github.com/sreeharshavoleti-art/harsha-VAPT-suite.git
-```
 
 *"The best hackers think like attackers but act like defenders."*
 
 **Built with ❤️ by Harsha | Hyderabad, India | 2025–2026**
 
 </div>
-```
-
----
-
-**Step 4** — Bottom lo:
-```
-Commit message: "docs: Professional README with full tool documentation"
-Extended: "Added architecture diagram, CVE database table, tool commands, tech stack"
