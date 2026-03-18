@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=HARSHA+AI+v10.0+%7C+VAPT+Suite+%F0%9F%9B%A1%EF%B8%8F;Vulnerability+Assessment+%26+Penetration+Testing;Web+%7C+Network+%7C+Infrastructure+%7C+Cloud" alt="Typing SVG" />
-
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=HARSHA%20AI%20v10.0%20%7C%20VAPT%20Suite%20%F0%9F%9B%A1%EF%B8%8F;Vulnerability%20Assessment%20%26%20Penetration%20Testing;Web%20%7C%20Network%20%7C%20Infrastructure%20%7C%20Cloud" alt="Typing SVG" />
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-Web%20UI-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
